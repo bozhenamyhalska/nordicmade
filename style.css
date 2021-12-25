@@ -1,0 +1,214 @@
+body{
+	font-family:Calibri Light;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+li{color:#D3D3D3;
+     display:inline-block;}
+	 
+a{text-decoration:none;
+  color:grey;
+  font-family:Tahoma;}
+
+a:hover{color:black;}
+
+.header{
+	height: 70px;
+	background: transparent;
+	line-height: 70px;
+}
+
+
+ul{
+	padding: 0;	
+	margin: 0;
+}
+
+
+ul li:first-child{
+	margin-left: 0;
+}
+ul li {
+	margin-left: 30px;
+}
+
+.header-logo{
+	float: left;
+	width: 30%;
+}
+
+.header-menu{
+	width: 40%;
+	float: left;	
+	text-align: center;
+}
+
+.header-icon{
+	float: right;	
+	width: 30%;
+	text-align: right;
+}
+
+.shop{
+	text-decoration:none;
+	color:red;
+}
+
+
+.t1:first-child{
+	margin-left: 0;	
+}
+.t1{
+	background:#ebebeb;
+	width:350px;
+	height:200px;
+	margin-left: 30px;
+	padding: 20px;
+}
+
+.slide{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.menu{
+	background:#ebebeb;
+	margin:50px;
+}
+
+.features{
+	margin-top: 50px;
+}
+
+
+.feature-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.img-menu{
+	width:300px;
+}
+
+.first-line{
+	display:inline-block;
+}
+
+.price{
+	color:silver;
+}
+
+.new-price{
+	color:red;
+	display:inline-block;
+}
+
+.old-price{
+	display:inline-block;
+	color:silver;
+}
+
+.prices{
+	margin:0;
+}
+
+.second-line{
+	display:inline-block;
+}
+
+.bottom{
+	margin:100px;
+}
+
+.history{
+	color:grey;
+}
+
+
+.first-line:hover, .second-line:hover{
+	transform: scale(1.2);
+	transition: all .3s ease;
+	-webkit-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.72); 
+box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.72);
+}
+
+.end{
+	margin:100px;
+}
+
+.b{
+	color:white;
+	background:red;
+	padding: 10px 15px;
+	border: 0;
+}
+
+.b:hover{
+	background: grey;
+	color: white;
+}
+
+.input{
+	}
+	
+.subscribe{
+	color:silver;
+}
+
+
+.end-top{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.end-top h1, .end-top h5{margin: 0;} 
+
+.search{
+	display: flex;
+}
+
+.end-bottom li:hover{
+	color:red;
+}
+
+.end-bottom ul li{color:black;
+                   margin:0;}
+
+.end-bottom{display:flex;
+justify-content: space-around;}
+
+hr{margin:100px;
+   color:silver;}
+
+i{color:silver;
+  margin-right: 10px;}
+
+i:hover{color:red;}
+
+.header-icon i:hover{color:black;}
+
+
+.our-flex{
+	display: flex;
+	align-items: flex-start;
+}
+
+.our-flex svg{
+	margin-right: 10px;
+}
+
+svg:hover path{
+	fill: red;
+}
+
+.header-icon i{margin:10px;}
+
+
